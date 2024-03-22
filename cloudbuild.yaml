@@ -1,6 +1,6 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/qwiklabs-gcp-03-46d285fd8864/ap:$SHORT_SHA', '.']
+    args: ['build', '-t', 'gcr.io/qwiklabs-gcp-03-46d285fd8864/github.com/vineetson/ap:$SHORT_SHA', '.']
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/qwiklabs-gcp-03-46d285fd8864/ap:$SHORT_SHA', '.']
+    args: ['push', 'gcr.io/qwiklabs-gcp-03-46d285fd8864/github.com/vineetson/ap:$SHORT_SHA', '.']
     
